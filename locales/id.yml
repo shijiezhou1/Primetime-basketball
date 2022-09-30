@@ -28,7 +28,7 @@ pages:
     reset: mengatur ulang
     identity: identitas
     full_name: nama lengkap
-  getting-started:
+  home:
     nav: mulai
     title: mulai
     description: ini adalah halaman memulai

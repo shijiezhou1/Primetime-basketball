@@ -85,7 +85,7 @@ _This template was built to make it easier to create web projects using Nuxt 3. 
   - [License](#license)
 
 ## Quick Start
-For detail information, go here [Getting Started](https://nuxt3-awesome-starter.vercel.app/getting-started)
+For detail information, go here [Getting Started](https://nuxt3-awesome-starter.vercel.app/home)
 ### Start with this template
 * This project using `pnpm` as package manager.
 * Clone this project to your computer `git clone https://github.com/viandwi24/nuxt3-awesome-starter`

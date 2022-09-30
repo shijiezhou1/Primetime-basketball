@@ -9,11 +9,11 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: capitalize(t('pages.getting-started.title')),
+  title: capitalize(t('pages.home.title')),
   meta: [
     {
       name: 'description',
-      content: t('pages.getting-started.description'),
+      content: t('pages.home.description'),
     },
   ],
 }))
@@ -21,7 +21,7 @@ useHead(() => ({
 
 <template>
   <PageContentRenderer
-    path="/page/getting-started"
-    :page-title="$t('pages.getting-started.title')"
+    path="/page/home"
+    :page-title="$t('pages.home.title')"
   />
 </template>

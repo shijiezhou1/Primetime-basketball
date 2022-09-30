@@ -6,7 +6,7 @@ components:
     change_theme: change theme
 pages:
   index:
-    title: nuxt 3[]awesome[]starter
+    title: What is PrimeTime Basketball[]PrimeTime basketball Academy is To impact[]To educate To motivate the next generation with positive experience in becoming a best version of themselves.
   404:
     title: page not found
   about:
@@ -28,8 +28,8 @@ pages:
     reset: reset
     identity: identity
     full_name: fullName
-  getting-started:
-    nav: Home
+  home:
+    nav: home
     title: Home
     description: this is a home page
   setting:
@@ -70,3 +70,4 @@ others:
   copy: copy
   enabled: enabled
   disabled: disabled
+  welcome: Welcome
