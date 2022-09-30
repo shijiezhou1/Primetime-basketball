@@ -9,11 +9,11 @@ pages:
     title: nuxt 3[]awesome[]starter
   404:
     title: page not found
-  blank:
-    nav: blank
-    title: blank page
-    description: this is a blank page
-    just_blank_page_with_title: just blank page with title
+  about:
+    nav: about
+    title: about
+    description: this is a about
+    just_blank_page_with_title: just about with title
   post:
     nav: post
     title: post
@@ -29,9 +29,9 @@ pages:
     identity: identity
     full_name: fullName
   getting-started:
-    nav: getting started
-    title: getting started
-    description: this is a getting started page
+    nav: Home
+    title: Home
+    description: this is a home page
   setting:
     nav: setting
     title: setting

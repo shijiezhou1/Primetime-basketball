@@ -16,7 +16,7 @@ const menus = computed((): IMenuItem[] => [
     text: t('pages.getting-started.nav'),
     route: { name: 'getting-started' },
   },
-  { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
+  { type: 'link', text: t('pages.about.nav'), route: { name: 'about' } },
   { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
   { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
@@ -30,20 +30,6 @@ const menus = computed((): IMenuItem[] => [
 
 <template>
   <BuilderNavbar>
-    <template #banner>
-      <div
-        class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
-      >
-        <span class="mr-1">
-          {{ $t('banners.welcome', { app_name: app.name }) }}
-        </span>
-        <Anchor
-          class="underline font-bold"
-          :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
-        />
-      </div>
-    </template>
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav

@@ -19,7 +19,7 @@ definePageMeta({
       </PageSection>
       <PageSection>
         <div v-for="i in 30" :key="i" class="text-6xl uppercase">
-          {{ $t('pages.blank.just_blank_page_with_title') }}
+          {{ $t('pages.about.just_blank_page_with_title') }}
         </div>
       </PageSection>
     </PageBody>
