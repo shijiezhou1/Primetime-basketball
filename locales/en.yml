@@ -14,6 +14,31 @@ pages:
     title: about
     description: this is a about
     just_blank_page_with_title: just about with title
+  iq:
+    nav: basketball IQ
+    title: Basketball IQ
+    description: Basketball IQ
+    just_blank_page_with_title: A great player will gradually develops the basketball IQ. However, a good coach will notice the little things. If the children want to be a great basketball player that they got to learn about the attention to detail like footwork, mindset and court vision.
+  mindset:
+    nav: mindset
+    title: Mindset
+    description: Mindset
+    just_blank_page_with_title: Some of the players play the game with fear frustration. We are teaching the players how to play with winning mindset. What is the mindset to handle win and loss. Keep it going. This separates from the great players and average players.
+  leadership:
+    nav: leadership
+    title: Leadership
+    description: Leadership
+    just_blank_page_with_title: How do I inspire to get to become a leader not just on a call and after court It takes energy and intelligence to ‘run the show’ for your team. Players have to inspire teammates, foster a sense of urgency, and get others to work together. PrimeTime Academy coaches will lead by example develop this skill for every age.
+  focus:
+    nav: focus
+    title: Focus
+    description: Focus
+    just_blank_page_with_title: In the modern world, we have too many distractions such as Smartphones, TV’s, computer screens.  Playing basketball help players concentrate for a longer period of time that will demonstrate greater success in life. We train them to improve one’s concentration to give them an edge on the basketball court and beyond.
+  teamwork:
+    nav: teamwork
+    title: Teamwork
+    description: Teamwork
+    just_blank_page_with_title: We teach to play basketball with teamwork, and they learn how to work with different players with respect. Hold our teammates accountable. Just like in life, making mistakes is a natural part of basketball. This provides excellent opportunities to teach kids to recognize and learn from their mistakes, and take accountability when they let themselves or their teammates down.
   post:
     nav: post
     title: post

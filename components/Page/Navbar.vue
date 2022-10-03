@@ -11,15 +11,24 @@ export interface IMenuItem {
 const { t } = useLang()
 const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
-  { type: 'link', text: t('pages.about.nav'), route: { name: 'about' } },
-  { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
-  { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
-  { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
+  // { type: 'link', text: t('pages.about.nav'), route: { name: 'about' } },
+  { type: 'link', text: t('pages.iq.nav'), route: { name: 'iq' } },
+  { type: 'link', text: t('pages.mindset.nav'), route: { name: 'mindset' } },
   {
-    type: 'button',
-    text: t('pages.dashboard.nav'),
-    route: { name: 'dashboard' },
+    type: 'link',
+    text: t('pages.leadership.nav'),
+    route: { name: 'leadership' },
   },
+  { type: 'link', text: t('pages.focus.nav'), route: { name: 'focus' } },
+  { type: 'link', text: t('pages.teamwork.nav'), route: { name: 'teamwork' } },
+  // { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
+  // { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
+  // { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
+  // {
+  //   type: 'button',
+  //   text: t('pages.dashboard.nav'),
+  //   route: { name: 'dashboard' },
+  // },
 ])
 </script>
 
