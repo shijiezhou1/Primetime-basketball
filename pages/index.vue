@@ -44,10 +44,12 @@ const copyBash = () => {
   const tt = document.querySelector('.tooltiptext')
   if (tt) tt.innerHTML = `Copied!!!`
 }
+
+// const backgroundVideo: any = () => require('@/assets/images/background.mp4')
 </script>
 
 <template>
-  <PageWrapper class="flex-1 flex">
+  <PageWrapper class="flex-1 flex pt-0">
     <div class="background-overlay">
       <!-- <div
         class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-14 w-14 rounded-full bg-gray-900 dark:bg-white"
@@ -61,6 +63,19 @@ const copyBash = () => {
       <div class="absolute bottom-0 right-0 triangle-shape"></div>
     </div>
     <PageBody class="flex-1">
+      <div class="video-bg-cover">
+        <video
+          class="video-bg"
+          autoplay
+          loop
+          muted
+          poster="https://i.imgur.com/o20tswE.jpg"
+        >
+          <source src="@/assets/images/background.mp4" type="video/mp4" />
+        </video>
+        <div class="video-welcome">{{ $t('others.welcome') }}</div>
+      </div>
+
       <PageSection class="flex-1 flex items-center">
         <div class="flex-1 md:w-2/3 flex flex-col z-10">
           <h1 class="text-center md:text-left ml-6 mt-4">
@@ -95,35 +110,42 @@ const copyBash = () => {
               help them succeed both in school and beyond!</span
             >
           </h1>
-          <h1 class="text-center md:text-left ml-6 mt-4">
-            <span>
-              Who is Primus Chan? Primus chan launched By PrimeTime Basketball
-              Academy in 2022, with a mission to do change the world with a
-              basketball.
-            </span>
-          </h1>
-          <h1 class="text-center md:text-left ml-6 mt-4">
-            <span>
-              Primus's philosophy revolves around using combination of games and
-              drills to optimize the training of youth and athletes. Skills
-              training, and performance training are Primus's specialties, as
-              well as game preparation positive self talk, Psychology aspects
-              turn them into the complete basketball player.
-            </span>
+
+          <h1
+            class="text-center md:text-left ml-6 mt-4 flex text-3xl font-bold"
+          >
+            Who is Primus Chan?
           </h1>
 
-          <h1 class="text-center md:text-left ml-6 mt-4">
-            <span>
-              Primus received his degree in sports management at the Northern
-              State University and is located in Hong Kong.
-            </span>
-          </h1>
-
-          <h1 class="text-center md:text-left ml-6 mt-4">
-            <span>
-              We believe everyone has an own unique talent and we are here to
-              maximise their potential through basketball training.
-            </span>
+          <h1 class="text-center md:text-left ml-6 mt-4 flex">
+            <div class="mx-8 my-4">
+              <img class="shooting" src="@/assets/images/shooting.jpeg" />
+            </div>
+            <div class="mx-8 my-4 flex flex-col">
+              <span>
+                Primus chan launched By PrimeTime Basketball Academy in 2022,
+                with a mission to do change the world with a basketball.
+              </span>
+              <br />
+              <span>
+                Primus's philosophy revolves around using combination of games
+                and drills to optimize the training of youth and athletes.
+                Skills training, and performance training are Primus's
+                specialties, as well as game preparation positive self talk,
+                Psychology aspects turn them into the complete basketball
+                player.
+              </span>
+              <br />
+              <span>
+                Primus received his degree in sports management at the Northern
+                State University and is located in Hong Kong.
+              </span>
+              <br />
+              <span>
+                We believe everyone has an own unique talent and we are here to
+                maximise their potential through basketball training.
+              </span>
+            </div>
           </h1>
         </div>
       </PageSection>
@@ -172,6 +194,38 @@ const copyBash = () => {
   83.333% {
     opacity: 1;
   }
+}
+
+.video-bg-cover {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-welcome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video-bg {
+  width: 100%;
+  filter: blur(8px);
+}
+
+.shooting {
+  width: 400px;
 }
 
 .animated-text-bg {
