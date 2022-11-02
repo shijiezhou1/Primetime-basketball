@@ -60,7 +60,7 @@ const copyBash = () => {
       <div
         class="absolute hidden md:block bottom-0 right-0 transform -translate-x-4 -translate-y-40 h-16 w-16 rounded bg-purple-600 linear-wipe"
       ></div>
-      <div class="absolute bottom-0 right-0 triangle-shape"></div>
+      <!-- <div class="absolute bottom-0 right-0 triangle-shape"></div> -->
     </div>
     <PageBody class="flex-1">
       <div class="video-bg-cover">
@@ -73,12 +73,16 @@ const copyBash = () => {
         >
           <source src="@/assets/images/background.mp4" type="video/mp4" />
         </video>
-        <div class="video-welcome">{{ $t('others.welcome') }}</div>
+        <div class="video-welcome">
+          <span>
+            {{ $t('others.welcome') }}
+          </span>
+        </div>
       </div>
 
       <PageSection class="flex-1 flex items-center">
         <div class="flex-1 md:w-2/3 flex flex-col z-10">
-          <h1 class="text-center md:text-left ml-6 mt-4">
+          <h1 class="text-center md:text-left md:ml-6 mt-4">
             <span
               v-for="(item, i) in leadingsText"
               :key="i"
@@ -87,9 +91,9 @@ const copyBash = () => {
               }; --end-color: ${item.endColor}; --animation-name: anim-fg-${
                 i + 1
               }`"
-              class="animated-text-bg drop-shadow-xl text-3xl xl:text-3xl 2xl:text-4xl block font-black uppercase"
+              class="animated-text-bg drop-shadow-xl text-3xl xl:text-3xl 2xl:text-4xl block"
             >
-              <span class="animated-text-fg">{{ item.text }}</span>
+              <span class="">{{ item.text }}</span>
             </span>
           </h1>
         </div>
@@ -101,7 +105,7 @@ const copyBash = () => {
 
       <PageSection class="flex-1 flex items-center">
         <div class="flex-1 md:w-2/3 flex flex-col z-10">
-          <h1 class="text-center md:text-left ml-6 mt-4">
+          <h1 class="text-center md:text-left md:ml-6 md:mt-4">
             <span
               >Basketball is one of the fastest-growing sports in the world. We
               are experiencing first-hand the growth of the game at every level:
@@ -117,11 +121,11 @@ const copyBash = () => {
             Who is Primus Chan?
           </h1>
 
-          <h1 class="text-center md:text-left ml-6 mt-4 flex">
-            <div class="mx-8 my-4">
+          <h1 class="text-center md:text-left center-image md:ml-6 md:mt-4">
+            <div class="lg:mx-8 my-4 image-left">
               <img class="shooting" src="@/assets/images/shooting.jpeg" />
             </div>
-            <div class="mx-8 my-4 flex flex-col">
+            <div class="lg:mx-8 my-4 flex flex-col image-right">
               <span>
                 Primus chan launched By PrimeTime Basketball Academy in 2022,
                 with a mission to do change the world with a basketball.
@@ -145,6 +149,23 @@ const copyBash = () => {
                 We believe everyone has an own unique talent and we are here to
                 maximise their potential through basketball training.
               </span>
+            </div>
+          </h1>
+
+          <h1 class="text-center md:text-left center-image md:ml-6 md:mt-4">
+            <div class="lg:mx-8 my-4 w-full sm:w-auto">
+              <div>Contact:</div>
+              <div>
+                <a href="http://instagram.com/_u/primuschan/"
+                  >Instagram: primuschan</a
+                >
+              </div>
+              <div>WhatsApp: +8526115077</div>
+              <div>
+                <a href="http://www.facebook.com/primuschan"
+                  >Facebook: primuschan</a
+                >
+              </div>
             </div>
           </h1>
         </div>
@@ -196,6 +217,27 @@ const copyBash = () => {
   }
 }
 
+.center-image {
+  display: flex;
+  @media (max-width: 414px) {
+    flex-direction: column;
+  }
+}
+
+.image-left {
+  width: 50%;
+  @media (max-width: 414px) {
+    width: 100%;
+  }
+}
+
+.image-right {
+  width: 50%;
+  @media (max-width: 414px) {
+    width: 100%;
+  }
+}
+
 .video-bg-cover {
   height: 400px;
   overflow: hidden;
@@ -217,6 +259,10 @@ const copyBash = () => {
   font-size: 45px;
   text-transform: uppercase;
   font-weight: bold;
+
+  span {
+    color: white;
+  }
 }
 
 .video-bg {

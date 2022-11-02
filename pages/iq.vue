@@ -33,7 +33,11 @@ useHead(() => ({
 
       <PageSection>
         <div class="flex items-center justify-center">
-          <img class="w-7/12" src="https://i.imgur.com/eaF1UBv.png" alt="iq" />
+          <img
+            class="sm:w-full md:w-7/12"
+            src="@/assets/images/basketball.jpeg"
+            alt="iq"
+          />
         </div>
       </PageSection>
     </PageBody>
