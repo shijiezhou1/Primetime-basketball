@@ -59,10 +59,5 @@
     "vitest": "^0.23.2",
     "vue": "^3.2.39",
     "webpack": ">=5.0.0 <6.0.0"
-  },
-  "lint-staged": {
-    "**/*.{js,ts,vue,html}": [
-      "pnpm lintfix"
-    ]
   }
 }
