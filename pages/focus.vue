@@ -35,7 +35,7 @@ useHead(() => ({
         <div class="flex items-center justify-center">
           <img
             class="sm:w-full md:w-4/12"
-            src="https://i.imgur.com/o20tswE.jpg"
+            src="@/assets/images/shooting.jpeg"
             alt="iq"
           />
         </div>

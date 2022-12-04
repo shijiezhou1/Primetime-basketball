@@ -115,14 +115,6 @@ const menus = computed((): IMenuItem[] => [
           </div>
         </ActionSheetBody>
         <Button
-          type="secondary"
-          title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
-        >
-          <IconMdi:github-face />
-          <span class="ml-1">Github</span>
-        </Button>
-        <Button
           text="Close"
           type="secondary"
           @click.prevent="toggleOptions(false)"
