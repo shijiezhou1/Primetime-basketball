@@ -153,8 +153,8 @@ const copyBash = () => {
           </h1>
 
           <h1 class="text-center md:text-left center-image md:ml-6 md:mt-4">
-            <div class="lg:mx-8 my-4 w-full sm:w-auto">
-              <div>Contact:</div>
+            <div class="lg:mx-8 my-4 w-full sm:w-auto text-lg">
+              <div><b>Contact:</b></div>
               <div>
                 <a href="http://instagram.com/_u/primuschan/"
                   >Instagram: primuschan</a
