@@ -8,7 +8,7 @@ describe('example', async () => {
     server: true,
   })
 
-  it('RendersPrimeTime BasketBall', async () => {
+  it('RendersPrimeTime Sports Academy', async () => {
     expect(await $fetch('/')).toMatch('Nuxt 3 Awesome Starter')
   })
 

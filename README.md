@@ -1,4 +1,4 @@
-#PrimeTime BasketBall
+#PrimeTime Sports Academy
 a Nuxt 3 starter template or boilerplate with a lot of useful features. and integrated with TailwindCSS 3.  
 
 _This template was built to make it easier to create web projects using Nuxt 3. It was originally designed for coursework and portfolio templates. (hence there will be lots of ui components for easy reuse)_

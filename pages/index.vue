@@ -99,7 +99,7 @@ const copyBash = () => {
         </div>
         <!-- <div class="hidden md:flex flex-1 justify-center items-end relative">
           <Gem class="absolute -top-64 -right-0" />
-          <div class="PrimeTime BasketBall"></div>
+          <div class="PrimeTime sports academy"></div>
         </div> -->
       </PageSection>
 
@@ -127,8 +127,8 @@ const copyBash = () => {
             </div>
             <div class="lg:mx-8 my-4 flex flex-col image-right">
               <span>
-                Primus chan launched By PrimeTime Basketball Academy in 2022,
-                with a mission to do change the world with a basketball.
+                Primus chan launched By PrimeTime Sports Academy in 2022, with a
+                mission to do change the world with a basketball.
               </span>
               <br />
               <span>

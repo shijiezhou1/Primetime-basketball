@@ -12,7 +12,7 @@ export interface IApp {
 export function AppSetup() {
   // declare app information
   const app: IApp = {
-    name: 'PrimeTime BasketBall',
+    name: 'PrimeTime Sports Academy',
     author: {
       name: 'primetime',
       link: 'https://primetime-academy.com',
