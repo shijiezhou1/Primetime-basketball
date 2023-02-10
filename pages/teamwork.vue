@@ -34,7 +34,7 @@ useHead(() => ({
       <PageSection>
         <div class="flex items-center justify-center">
           <img
-            class="sm:w-full md:w-4/12"
+            class="sm:w-9/12"
             src="@/assets/images/basketballteam1.jpeg"
             alt="iq"
           />
